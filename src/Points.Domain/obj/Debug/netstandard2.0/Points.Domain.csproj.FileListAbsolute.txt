@@ -1,0 +1,9 @@
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Domain\bin\Debug\netstandard2.0\Points.Domain.deps.json
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Domain\bin\Debug\netstandard2.0\Points.Domain.dll
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Domain\bin\Debug\netstandard2.0\Points.Domain.pdb
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Domain\obj\Debug\netstandard2.0\Points.Domain.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Domain\obj\Debug\netstandard2.0\Points.Domain.AssemblyInfo.cs
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Domain\obj\Debug\netstandard2.0\Points.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Domain\obj\Debug\netstandard2.0\Points.Domain.dll
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Domain\obj\Debug\netstandard2.0\Points.Domain.pdb
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Domain\obj\Debug\netstandard2.0\Points.Domain.csprojAssemblyReference.cache

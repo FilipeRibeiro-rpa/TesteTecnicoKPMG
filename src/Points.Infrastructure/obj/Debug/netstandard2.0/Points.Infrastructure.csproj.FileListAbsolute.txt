@@ -1,0 +1,12 @@
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\bin\Debug\netstandard2.0\Points.Infrastructure.deps.json
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\bin\Debug\netstandard2.0\Points.Infrastructure.dll
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\bin\Debug\netstandard2.0\Points.Infrastructure.pdb
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\bin\Debug\netstandard2.0\Points.Domain.dll
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\bin\Debug\netstandard2.0\Points.Domain.pdb
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\obj\Debug\netstandard2.0\Points.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\obj\Debug\netstandard2.0\Points.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\obj\Debug\netstandard2.0\Points.Infrastructure.AssemblyInfo.cs
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\obj\Debug\netstandard2.0\Points.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\obj\Debug\netstandard2.0\Points.Infrastructure.csproj.CopyComplete
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\obj\Debug\netstandard2.0\Points.Infrastructure.dll
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.Infrastructure\obj\Debug\netstandard2.0\Points.Infrastructure.pdb

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "k4IoqCxWAzb2Sb6J4vkFwfvZIci5iMcBTnHh+6y+f63Bn99bOoAWheAjBAmsc7U0bPZNuo37jy3KtK1I3bN3SQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrador\\source\\repos\\TesteTecnicoKPMG\\Points\\Points.Domain\\Points.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrador\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

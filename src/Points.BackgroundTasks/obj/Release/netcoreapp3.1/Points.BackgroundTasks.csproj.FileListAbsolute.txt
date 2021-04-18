@@ -1,0 +1,14 @@
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\bin\Release\netcoreapp3.1\Points.BackgroundTasks.deps.json
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\bin\Release\netcoreapp3.1\Points.BackgroundTasks.dll
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\bin\Release\netcoreapp3.1\Points.BackgroundTasks.pdb
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\bin\Release\netcoreapp3.1\Points.Domain.dll
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\bin\Release\netcoreapp3.1\Points.Infrastructure.dll
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\bin\Release\netcoreapp3.1\Points.Domain.pdb
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\bin\Release\netcoreapp3.1\Points.Infrastructure.pdb
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\obj\Release\netcoreapp3.1\Points.BackgroundTasks.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\obj\Release\netcoreapp3.1\Points.BackgroundTasks.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\obj\Release\netcoreapp3.1\Points.BackgroundTasks.AssemblyInfo.cs
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\obj\Release\netcoreapp3.1\Points.BackgroundTasks.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\obj\Release\netcoreapp3.1\Points.BackgroundTasks.csproj.CopyComplete
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\obj\Release\netcoreapp3.1\Points.BackgroundTasks.dll
+C:\Users\Administrador\source\repos\TesteTecnicoKPMG\Points\Points.BackgroundTasks\obj\Release\netcoreapp3.1\Points.BackgroundTasks.pdb
