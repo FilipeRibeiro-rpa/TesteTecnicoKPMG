@@ -2,11 +2,11 @@
 
 Este projeto foi desenvolvido para atender a solicitação de uma empresa que opera vários servidores de jogos, onde cada jogo resulta em ganho ou perda de pontos para o Jogador. 
 
-O projeto consiste na construção de uma API, onde contém dois endpoins, o primeiro está relacionado a persistência dos dados, em que foi feito o processo para armazenar os dados na memória do servidor e periodicamente são migrados para o Banco de Dados. O segundo endpoint poderá ser utilizado pelo website para obter a classificação dos 100 melhores jogares, conforme a classficação de pontos. 
+O projeto consiste na construção de uma API, onde contém dois endpoins, o primeiro está relacionado a persistência dos dados, em que foi feito o processo para armazenar os dados na memória do servidor e periodicamente são migrados para o Banco de Dados. O segundo endpoint poderá ser utilizado pelo website para obter a classificação dos 100 melhores jogadores, conforme a classficação de pontos. 
 
 # Pré-Requisitos
 
-Para executar a API é necessário ter um banco de dados SQL SERVER armazenado Localmente. O arquivo de configuração para criação do banco de dados está disponivel em config/CREATE_DATABASE.sql;
+Para executar a API é necessário ter um banco de dados SQL Server armazenado Localmente. O arquivo de configuração para criação do banco de dados está disponivel em config/CREATE_DATABASE.sql;
 
 # Estrutura do Projeto
 
@@ -19,11 +19,11 @@ A Estrutura do projeto está seguindo a modelagem DDD (design orientado a domín
     Points.API
     Points.BackgroundTasks
 
-Utilizou-se dessa modelagem para que o código do projeto fique mais organizado e alinhado com a realidade do negócio. Além de facilmente podemos implementar como um microserviço.
+Utilizou-se dessa modelagem para que o código do projeto fique mais organizado e alinhado com a realidade do negócio. Além de facilmente podermos implementar como um microserviço.
 
 ## CQRS
 
-O padrão CQRS foi utilizado para garantir um controle avançado sobre a leitura e a escrita dos dados. Além de ser uma ótima opção para domínios em que vários usuários acessam os mesmos dados em paralelo, o CQRS ajudar a separar o desempenho das consultas com o desempenho das gravações, especialmente em um cenário que o número de leituras é muito maior que o número de gravações.
+O padrão CQRS foi utilizado para garantir um controle avançado sobre a leitura e a escrita dos dados. Além de ser uma ótima opção para domínios em que vários usuários acessam os mesmos dados em paralelo, o CQRS ajudar a separar o desempenho das consultas com o desempenho das gravações, especialmente em um cenário que o número de leituras é maior que o número de gravações.
 
 
 ## Tecnologias
@@ -38,7 +38,7 @@ Biblioteca utilizada para integração com o banco de dados.
 
 ### IHostedService 
 
-No cenário em que os dados deveram ser migrados periodicamente para o banco, pensou em utiliza-se a interface IHostedService, que permite que tarefas sejam executadas em segundo plano como um microserviço. 
+No cenário em que os dados deverão ser migrados periodicamente para o banco, pensou em utiliza-se a interface IHostedService, que permite que tarefas sejam executadas em segundo plano como um microserviço. 
 
 Sempre que o EndPoint /GameResult for chamado será registrado um arquivo txt contendo o JSON da requisição na mémoria do servidor e em tempos o serviço contido em Points.BackgroundTasks será chamado para obter os dados desses arquivos e adiciona no banco de uma só vez.
 
@@ -46,17 +46,17 @@ Para configurar a periodicidade do serviço basta acessar o arquivo de configura
 
 ### BD SQL SERVER
 
-UTilizou do banco de dados SQL Server por garantir um alto desempenho no tratamento de dados, além de fornece um ótimo suporte para recuperação de dados em caso de dados corrompidos.
+Utilizou do banco de dados SQL Server por garantir um alto desempenho no tratamento de dados, além de fornece um ótimo suporte para recuperação de dados em caso de dados corrompidos.
 
 
 # Teste da API
 
-Para realizar testes na API é possivel executar através do arquivo /build/Points.API.exe ou executar o projeto em si.
+Para realizar testes na API é possivel executar através do arquivo /build/Points.API.exe.
 
 
 ## EndPoint 1 /GameResult
 
-O teste pode ser realiado através da ferramenta Postamn adicionando o seguinte código:
+O teste pode ser realizado através da ferramenta Postman adicionando o seguinte código:
 
     curl --location --request POST 'https://localhost:5001/api/v1/GameResults' \
     --header 'Content-Type: application/json' \
@@ -77,4 +77,7 @@ Após o envio da requisição será possível visualizar o chave identificadora 
 
     curl --location --request GET 'https://localhost:5001/api/v1/Leaderboard'
 
+# Melhoria Continua
+
+Para garantir uma seguraça na API, será necessário a implementação de Autenticação JWT para impedir usuários maliciosos. 
 
