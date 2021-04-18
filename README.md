@@ -58,23 +58,23 @@ Para realizar testes na API é possivel executar através do arquivo /build/Poin
 
 O teste pode ser realiado através da ferramenta Postamn adicionando o seguinte código:
 
-curl --location --request POST 'https://localhost:5001/api/v1/GameResults' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "PlayerId":6,
-    "GameId":3,
-    "Win":-5,
-    "TimeStamp":"2021-04-18T18:00:55.1565614-03:00"
-}'
+    curl --location --request POST 'https://localhost:5001/api/v1/GameResults' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+        "PlayerId":6,
+        "GameId":3,
+        "Win":-5,
+        "TimeStamp":"2021-04-18T18:00:55.1565614-03:00"
+    }'
 
 
 Após o envio da requisição será possível visualizar o chave identificadora do registro:
-{
-    "identityGuid": "9139749f-bc82-4b14-985a-846590896c35"
-}
+    {
+        "identityGuid": "9139749f-bc82-4b14-985a-846590896c35"
+    }
 
 ## EndPoint 2 / Leaderboard
 
-curl --location --request GET 'https://localhost:5001/api/v1/Leaderboard'
+    curl --location --request GET 'https://localhost:5001/api/v1/Leaderboard'
 
 
