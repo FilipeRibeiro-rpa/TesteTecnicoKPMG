@@ -6,18 +6,18 @@ O projeto consiste na construção de uma API, onde contém dois endpoins, o pri
 
 # Pré-Requisitos
 
-Para executar a API é necessário ter um banco de dados SQL Server armazenado Localmente. O arquivo de configuração para criação do banco de dados está disponivel em config/CREATE_DATABASE.sql;
+Para executar a API é necessário ter um banco de dados SQL Server armazenado Localmente. O arquivo de configuração para criação do banco de dados está disponivel em config/CREATE_DATABASE.sql.
 
 # Estrutura do Projeto
 
 ## DDD
 A Estrutura do projeto está seguindo a modelagem DDD (design orientado a domínio) que basicamente defende uma modelagem com base na regra de negócio da empresa, sendo estruturado da seguinte forma:
 
-    Points.Domain
-    Points.UnitTests
-    Points.Infrastructure
-    Points.API
-    Points.BackgroundTasks
+    Points.Domain - Regra de Negócio
+    Points.UnitTests - Testes de Unidade com o Unit, implementação do TDD
+    Points.Infrastructure - Infraestrutura de banco de dados, implementação do EF
+    Points.API - Web API
+    Points.BackgroundTasks - Serviços em segundo Plano
 
 Utilizou-se dessa modelagem para que o código do projeto fique mais organizado e alinhado com a realidade do negócio. Além de facilmente podermos implementar como um microserviço.
 
@@ -51,13 +51,9 @@ Utilizou do banco de dados SQL Server por garantir um alto desempenho no tratame
 
 # Teste da API
 
-Para realizar testes na API é possivel executar através do arquivo /build/Points.API.exe.
-
+Para realizar testes na API é possivel executar através do arquivo /build/Points.API.exe. O teste pode ser realizado através da ferramenta Postman adicionando um dos códigos abaixo:
 
 ## EndPoint 1 /GameResult
-
-O teste pode ser realizado através da ferramenta Postman adicionando o seguinte código:
-
     curl --location --request POST 'https://localhost:5001/api/v1/GameResults' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -66,7 +62,6 @@ O teste pode ser realizado através da ferramenta Postman adicionando o seguinte
         "Win":-5,
         "TimeStamp":"2021-04-18T18:00:55.1565614-03:00"
     }'
-
 
 Após o envio da requisição será possível visualizar o chave identificadora do registro:
     {
