@@ -1,4 +1,4 @@
-# Teste Técnico - KPMG
+# Arquitetura com DDD e CQRS
 
 Este projeto foi desenvolvido para atender a solicitação de uma empresa que opera vários servidores de jogos, onde cada jogo resulta em ganho ou perda de pontos para o Jogador. 
 
